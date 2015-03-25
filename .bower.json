@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "https://github.com/angular-pdl/angular-logger/graphs/contributors"
+  },
+  "name": "angular-logger",
+  "main": [
+    "cache-module/cache-config.js",
+    "cache-module/services/*.js",
+    "logger-module/logger-config.js",
+    "logger-module/services/*.js"
+  ],
+  "ignore": [],
+  "dependencies": {},
+  "private": true,,
+  "main": "index",
+  "_source": "git://github.com/angular-pdl/angular-logger.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/angular-pdl/angular-logger.git",
+  "_direct": true
+}
