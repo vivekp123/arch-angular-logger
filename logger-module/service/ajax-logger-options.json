@@ -1,0 +1,11 @@
+{
+    "batchSize" : 5,
+    "bufferSize": 0,
+    "disallow" : "",
+    "ipRegex" : "",
+    "level": 1000,
+    "sendWithBufferLevel": "OFF",
+    "storeInBufferLevel": 0,
+    "userAgentRegex" : "",
+    "url" : "/tmob.logger"    
+}
