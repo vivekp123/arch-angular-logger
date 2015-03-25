@@ -1,2 +1,2 @@
 # angular-logger
-logger optimised with angular
+JSON logger optimised for angular
