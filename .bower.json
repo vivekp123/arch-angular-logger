@@ -12,7 +12,6 @@
   "ignore": [],
   "dependencies": {},
   "private": true,
-  "main": "index",
   "_source": "git://github.com/angular-pdl/angular-logger.git",
   "_target": "*",
   "_originalSource": "git://github.com/angular-pdl/angular-logger.git",
