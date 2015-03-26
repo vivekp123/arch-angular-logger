@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngArchRef.cache').service('cacheService', ['CacheFactory','URL_CONSTS',  function(cacheFactory, URL_CONSTS) {
+angular.module('myTmoApp.cache').service('cacheService', ['CacheFactory','URL_CONSTS',  function(cacheFactory, URL_CONSTS) {
 	
 	this.getTMobCache = function(name, type, option){
 		if(type === URL_CONSTS.CACHE){
