@@ -1,7 +1,7 @@
 'use strict';
 
 
-angular.module('ngArchRef.cache', []).run(function ($window, $rootScope, OfflineCache) {
+angular.module('myTmoApp.cache', []).run(function ($window, $rootScope, OfflineCache) {
 	OfflineCache.init();
 	
 	$rootScope.online = navigator.onLine;
