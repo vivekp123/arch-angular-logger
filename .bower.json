@@ -5,10 +5,9 @@
   "name": "arch-angular-logger",
   "version": "1.0.0",
   "main": [
-    "cache-module/cache-config.js",
-    "cache-module/services/*.js",
     "logger-module/logger-config.js",
-    "logger-module/services/*.js"
+    "logger-module/service/logger-service.js",
+    "logger-module/service/logger-interceptor-factory.js",
   ],
   "homepage": "https://github.com/angular-pdl/arch-angular-logger",
   "_release": "1.0.0",
