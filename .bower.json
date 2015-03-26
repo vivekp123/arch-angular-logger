@@ -1,8 +1,8 @@
 {
   "author": {
-    "name": "https://github.com/angular-pdl/angular-logger/graphs/contributors"
+    "name": "https://github.com/arch-angular-pdl/angular-logger/graphs/contributors"
   },
-  "name": "angular-logger",
+  "name": "arch-angular-logger",
   "main": [
     "cache-module/cache-config.js",
     "cache-module/services/*.js",
@@ -11,8 +11,8 @@
   ],
   "ignore": [],
   "dependencies": {},
-  "_source": "git://github.com/angular-pdl/angular-logger.git",
+  "_source": "git://github.com/angular-pdl/arch-angular-logger.git",
   "_target": "*",
-  "_originalSource": "git://github.com/angular-pdl/angular-logger.git",
+  "_originalSource": "git://github.com/angular-pdl/arch-angular-logger.git",
   "_direct": true
 }
