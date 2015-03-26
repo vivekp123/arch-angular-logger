@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngArchRef.logger')
+angular.module('myTmoApp.logger')
 .service('loggerService', ['$http', '$q', 'URL_CONSTS', '$location', 'loggerAjaxService', 'loggerConsoleService', '$rootScope','cacheService','LOCAL_STORAGE_CONFIG', function ($http, $q, URL_CONSTS, $location, loggerAjaxService, loggerConsoleService, $rootScope, cacheService, LOCAL_STORAGE_CONFIG) {
 	var appenders = [];
 	var self = this;
