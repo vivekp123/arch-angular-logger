@@ -71,9 +71,7 @@ angular.module('ngArchRef.logger')
 
 	var initAppenders = function (res) {
 
-		if($rootScope.online){
-			attachAjaxAppender(res);
-		}
+		attachAjaxAppender(res);
 
 		if (false === self.isDebug()) {
 			return;
