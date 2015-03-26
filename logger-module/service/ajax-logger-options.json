@@ -7,5 +7,5 @@
     "sendWithBufferLevel": "OFF",
     "storeInBufferLevel": 0,
     "userAgentRegex" : "",
-    "url" : "/tmob.logger"    
+    "url" : "http://t-mobile-test.apigee.net/facade-api-poc/logs"    
 }
