@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngArchRef.logger').factory('logToServerInterceptor', [ '$q', function($q) {
+angular.module('myTmoApp.logger').factory('logToServerInterceptor', [ '$q', function($q) {
 	var myInterceptor = {
 			'request' : function(config) {
 				config.msBeforeAjaxCall = new Date().getTime();
