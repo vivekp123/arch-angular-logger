@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('myTmoApp.logger')
-.service('loggerService', ['$http', '$q', 'URL_CONSTS', '$location', 'loggerAjaxService', 'loggerConsoleService', '$rootScope','cacheService','LOCAL_STORAGE_CONFIG', function ($http, $q, URL_CONSTS, $location, loggerAjaxService, loggerConsoleService, $rootScope, cacheService, LOCAL_STORAGE_CONFIG) {
+.service('loggerService', ['$http', '$q', 'URL_CONSTS', '$location', 'loggerAjaxService', 'loggerConsoleService', function ($http, $q, URL_CONSTS, $location, loggerAjaxService, loggerConsoleService) {
 	var appenders = [];
 	var self = this;
 	self.logger = undefined;
@@ -11,11 +11,10 @@ angular.module('myTmoApp.logger')
 			return;
 		}
 		JL.__.setOptions({
-	        level: JL.getTraceLevel()
-	    });
+			level: JL.getTraceLevel()
+		});
 		self.logger = JL('Rebellion');
 		self.logger.setOptions(option);
-		self.createLoggerCache();
 	};
 
 	this.setAJAXLoggerOptions = function (option) {
@@ -24,10 +23,6 @@ angular.module('myTmoApp.logger')
 
 	this.getAJAXLogger = function(){
 		return _.find(self.getAppenders(), { 'appenderName': 'ajaxAppender' });
-	};
-
-	this.createLoggerCache = function(){
-		cacheService.getTMobCache(URL_CONSTS.LOGGER_CACHE_NAME, URL_CONSTS.CACHE_STORAGE, LOCAL_STORAGE_CONFIG);
 	};
 
 	this.detachAppender = function(options){
