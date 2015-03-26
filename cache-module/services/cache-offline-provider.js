@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngArchRef.cache').provider('OfflineCache', function(){
+angular.module('myTmoApp.cache').provider('OfflineCache', function(){
 
 	this.$get = function ($rootScope, cacheService, loggerService, LOGGER_AJAX_OPTIONS, URL_CONSTS){
 		var service = {};
