@@ -24,7 +24,9 @@ angular.module('ngArchRef.cache').provider('OfflineCache', function(){
 			if(logmessages.length <= 0){
 				return;
 			}
-			logger.sendLogItemsAjax(logmessages);
+			for(var i=0; i< logmessages.length; i++){
+                                logger.sendLogItemsAjax(logmessages[i]);
+                        }
 			lStorageCache.remove(URL_CONSTS.LOGGER_CACHE_KEY);
 		};
 		
