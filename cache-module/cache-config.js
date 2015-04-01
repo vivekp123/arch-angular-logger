@@ -19,3 +19,10 @@ angular.module('myTmoApp.cache', []).run(function ($window, $rootScope, OfflineC
 		$rootScope.$broadcast('onlineChanged', true);
 	}, false);
 });
+angular.module('myTmoApp.cache')
+  .constant('URL_CONSTS', {
+	  'CACHE': 'CACHE',
+	  'CACHE_STORAGE': 'CACHE_STORAGE',
+	  'LOGGER_CACHE_KEY': 'log',
+	  'LOGGER_CACHE_NAME': 'logMsgCache'
+});
