@@ -5,6 +5,7 @@
   "name": "arch-angular-logger",
   "version": "1.0.0",
   "main": [
+    "jsnlog/jsnlog.js",
     "logger-module/logger-config.js",
     "logger-module/service/logger-service.js",
     "logger-module/service/logger-interceptor-factory.js"
