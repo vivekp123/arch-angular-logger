@@ -1,6 +1,0 @@
-{
-	"maxAge": 900000, 
-	"cacheFlushInterval": 6000000,
-	"deleteOnExpire": "aggressive",
-	"storageMode" : "localStorage"
-}
