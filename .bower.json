@@ -5,20 +5,13 @@
   "name": "arch-angular-logger",
   "version": "1.0.0",
   "main": [
-    "jsnlog/jsnlog.js",
-    "cache-module/cache-config.js",
-    "logger-module/logger-config.js",
-    "cache-module/services/cache-service.js",
-    "logger-module/service/logger-service.js",
-    "logger-module/service/logger-interceptor-factory.js",
-    "cache-module/services/cache-offline-provider.js"
-    
+    "logger.js"
   ],
   "homepage": "https://github.com/angular-pdl/arch-angular-logger",
-  "_release": "1.0.0",
+  "_release": "1.0.1",
   "_resolution": {
     "type": "version",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },  
   "ignore": [],
   "dependencies": {},
